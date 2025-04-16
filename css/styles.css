@@ -159,8 +159,8 @@ body {
   gap: 24px;
 }
 
-.features-item {
-  width: calc((100% - 72px) / 4);
+.features-card {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -175,6 +175,7 @@ body {
   color: #434455;
   line-height: 1.5;
 }
+
 
 
 
