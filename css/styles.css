@@ -61,10 +61,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
   margin-right: 76px;
 }
+
 
 .logo-accent {
   color: #2e2f42;
@@ -76,11 +78,13 @@ body {
 }
 
 .menu-link {
+  display: block;
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
   padding: 24px 0;
 }
+
 
 .menu-link:hover,
 .menu-link:focus {
@@ -256,6 +260,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
 }
@@ -263,4 +268,8 @@ body {
 .footer-text {
   max-width: 264px;
   font-size: 16px;
+}
+
+.footer-logo .logo-accent {
+  color: #ffffff;
 }
